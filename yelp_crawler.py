@@ -79,8 +79,8 @@ def create_dynamoDB(table_name):
 dynamodb = boto3.resource(
         'dynamodb',
         'us-east-1',
-        aws_access_key_id='AKIAJBBMK6GHVFCJZZHQ',
-        aws_secret_access_key='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')
+        aws_access_key_id='',
+        aws_secret_access_key='‘)
 
 # table = create_dynamoDB("yelp-restaurants") 
 # time.sleep(5) # should wait for 'created' before inserting
